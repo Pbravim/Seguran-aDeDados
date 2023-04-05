@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="button" value="Registrar" onclick="registrar()">
+        <input type="button" value="Entrar" onclick="login()">
+      </form>
+      <form>        
+        <div class="g-recaptcha" data-sitekey="6LcWy1wlAAAAAPkAQfiSzMtrG9AmQnEIXzhlkDYC
+        "></div>
+        
+        <button type="submit">Submit</button>
+      </form>
+      <script src="app/script.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+</html>
